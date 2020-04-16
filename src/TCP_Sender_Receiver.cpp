@@ -23,7 +23,7 @@ void TCP_Sender::Send(std::vector<uint8_t> const & data)
 	
 
 	SOCKET Connection;
-    Connection = socket(AF_INET, SOCK_STREAM, NULL);
+	Connection = socket(AF_INET, SOCK_STREAM, NULL);
 	if (FAILED(connect(Connection, (SOCKADDR*)&addr, sizeof(addr))))
 	{
 		int error = WSAGetLastError();
