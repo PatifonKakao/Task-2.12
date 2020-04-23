@@ -1,7 +1,9 @@
 # задаем набор исходников
 set(SOURCES
-TCP_Sender_Receiver.h
-TCP_Sender_Receiver.cpp
+TCP_Sender.h
+TCP_Sender.cpp
+TCP_Receiver.h
+TCP_Receiver.cpp
 )
 
 # создаем статическую библиотеку

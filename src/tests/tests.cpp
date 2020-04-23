@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
-#include "TCP_Sender_Receiver.h"
+#include "TCP_Receiver.h"
+#include "TCP_Sender.h"
 
 #include <thread>
 #include <ctime>
