@@ -1,4 +1,3 @@
-# Task-2.12
-# Autor: Sinitsyn Vladimir 
-# Group: 3441101/90101 
-# Created for Windows
+Task-2.12
+--------------------------
+This program implements the transfer of a byte array via the TCP Protocol
